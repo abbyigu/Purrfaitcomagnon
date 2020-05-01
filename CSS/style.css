@@ -53,6 +53,8 @@ footer{
   	height: 300px;
 }
 .row:after {
+	position: relative;
+	margin: auto;
 	content: "";
   display: table;
   clear: both;
