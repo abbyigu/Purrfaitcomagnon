@@ -14,7 +14,7 @@ header{
 #hero{
 	width: 100%;
 	height: 700px;
-	background-image: url("../img/doggies.jpg");
+	background-image: url("../img/Corgie-in-black.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -45,5 +45,9 @@ header{
 footer{
 	width: 100%;
 	height: 80px;
-	background-color: red;
+}
+/*Here is the styling for the typography*/ 
+p{ 
+	font-family: 'Josefin Sans', sans-serif;
+
 }
