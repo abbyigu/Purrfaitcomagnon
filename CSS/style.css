@@ -47,7 +47,15 @@ footer{
 	height: 80px;
 }
 .columns{
-	column-count: 4;
+	float: left;
+  	width: 20%;
+ 	padding: 10px;
+  	height: 300px;
+}
+.row:after {
+	content: "";
+  display: table;
+  clear: both;
 }
 /*Here is the styling for the typography*/ 
 h2{
