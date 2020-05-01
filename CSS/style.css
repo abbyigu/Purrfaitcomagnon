@@ -46,8 +46,16 @@ footer{
 	width: 100%;
 	height: 80px;
 }
+.columns{
+	column-count: 4;
+}
 /*Here is the styling for the typography*/ 
-p{ 
+h2{
+	font-family: 'Montserrat', sans-serif;	
+}
+h4{
 	font-family: 'Josefin Sans', sans-serif;
-
+}
+p{ 
+	font-family: 'Montserrat', sans-serif;
 }
