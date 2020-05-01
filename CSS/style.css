@@ -46,6 +46,13 @@ footer{
 	width: 100%;
 	height: 80px;
 }
+#wrapper{ 
+	position: relative;
+	margin: auto;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: green;
+ }
 .columns{
 	float: left;
   	width: 20%;
@@ -60,6 +67,19 @@ footer{
   clear: both;
 }
 /*Here is the styling for the typography*/ 
+a{
+	display: block;
+	width: 30%;
+	border: none;
+	background-color: #659ba8;
+	padding: 10px 28px;
+	font-family: 'PT snans', sans-serif; 
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	position: relative;
+	margin: auto;
+}
 h2{
 	font-family: 'Montserrat', sans-serif;	
 }
