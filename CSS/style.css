@@ -10,7 +10,7 @@ header{
 	height: 80px;
 	background-color: #2EB6E7;
 	position: relative;
-	top: -30px;
+	
 	z-index: 1;
 }
 #menu {
@@ -19,8 +19,7 @@ header{
 	width: 350px;
 	top: 30px;
 	word-spacing: 5px;
-	font-family: 
-}
+	}
 #hero{
 	position: relative;
 	top: -100px;
@@ -43,7 +42,7 @@ header{
 }
 #services{
 	width: 100%;
-	height: 700px;
+	
 }
 #testimonials{
 	width: 100%;
@@ -76,6 +75,10 @@ footer{
 	margin:2%;
 	text-align:center;
 	vertical-align:middle;
+	background-color: #F9F6F4;
+	box-shadow: 10px 10px #888888;
+	padding: 15px;
+
  
 }
 #wrapper > .boxes:before {
@@ -85,19 +88,7 @@ footer{
   	display: inline-flex;
   	
  
- }
-.columns{
-	float: left;
-  	width: 20%;
- 	padding: 10px;
-  	height: 300px;
-}
-.row:after {
-	position: relative;
-	margin: auto;
-	content: "";
-  display: table;
-  clear: both;
+ 
 }
 /*Here is the styling for the typography*/ 
 button{
@@ -106,13 +97,17 @@ button{
 	border: none;
 	background-color:  #2EB6E7;
 	padding: 10px 10px;
-	font-family: 'PT snans', sans-serif; 
 	font-size: 20px;
 	cursor: pointer;
 	text-align: center;
 	position: relative;
 	margin: auto;
-	box-shadow: 5px 10px #888888;
+	box-shadow: 10px 10px #888888;
+
+}
+button:hover {
+	background-color: pink;
+
 }
 h2{
 	font-family: 'Josefin Sans', sans-serif;
@@ -126,4 +121,13 @@ h4{
 }
 p{ 
 	font-family: 'Montserrat', sans-serif;
+}
+a:link, a:visited, a:active   {
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+	color: black;
+	
+}
+a:hover {
+	color: white;
 }
