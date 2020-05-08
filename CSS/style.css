@@ -62,6 +62,7 @@ footer{
     position: relative;
     margin: auto;
     width: 100%;
+    padding-bottom: 5%;
  }
 .boxes {
 	position:relative;
@@ -99,6 +100,10 @@ button{
 }
 button:hover {
 	background-color: pink;
+
+}
+button:hover > a {
+	color: white;
 
 }
 h2{
