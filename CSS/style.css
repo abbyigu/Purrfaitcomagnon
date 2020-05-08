@@ -62,6 +62,7 @@ footer{
     position: relative;
     margin: auto;
     width: 100%;
+    padding-bottom: 5%;
  }
 .boxes {
 	position:relative;
@@ -74,7 +75,7 @@ footer{
 	text-align:center;
 	vertical-align:middle;
 	background-color: #F9F6F4;
-	box-shadow: 10px 10px #888888;
+	box-shadow: 10px 10px #D8C6BC;
 	padding: 15px;
  
 }
@@ -94,11 +95,15 @@ button{
 	text-align: center;
 	position: relative;
 	margin: auto;
-	box-shadow: 10px 10px #888888;
+	box-shadow: 10px 10px #D8C6BC;
 
 }
 button:hover {
-	background-color: pink;
+	background-color: #649BA8;
+
+}
+button:hover > a {
+	color: white;
 
 }
 h2{
