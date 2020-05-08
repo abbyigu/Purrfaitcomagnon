@@ -63,32 +63,24 @@ footer{
     margin: auto;
     width: 100%;
  }
-#wrapper >.boxes {
+.boxes {
 	position:relative;
 	display:inline-block;
 	/* Width of each cell */
 	/* Must be compatible with total/max width of content (~~~) */
 	width:230px;
 	height:350px;
-	margin:0px;
-	padding:0px;
 	margin:2%;
 	text-align:center;
 	vertical-align:middle;
 	background-color: #F9F6F4;
 	box-shadow: 10px 10px #888888;
 	padding: 15px;
-
  
 }
-#wrapper > .boxes:before {
-	content: " ";
+.boxes:before {
   	position: absolute;
   	z-index: 2;
-  	display: inline-flex;
-  	
- 
- 
 }
 /*Here is the styling for the typography*/ 
 button{
