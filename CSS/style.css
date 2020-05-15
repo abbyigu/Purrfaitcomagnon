@@ -65,7 +65,7 @@ footer{
     padding-bottom: 5%;
  }
 .boxes {
-	position:relative;
+	
 	display:inline-block;
 	/* Width of each cell */
 	/* Must be compatible with total/max width of content (~~~) */
