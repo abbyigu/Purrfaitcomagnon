@@ -106,6 +106,28 @@ button:hover > a {
 	color: white;
 
 }
+.box{
+	display:inline-block;
+	width:400px;
+	height:500px;
+	margin:2%;
+	text-align:center;
+	vertical-align:middle;
+	background-color: #F9F6F4;
+	box-shadow: 10px 10px #D8C6BC;
+	padding: 15px;
+ }
+ .boxp{
+ 	display:inline-block;
+	width:300px;
+	height:300px;
+	margin:2%;
+	text-align:center;
+	vertical-align:middle;
+	background-color: #F9F6F4;
+	box-shadow: 10px 10px #D8C6BC;
+	padding: 15px;
+ }
 .banner{ 
 	position: relative;
 	margin-bottom: 20px;
