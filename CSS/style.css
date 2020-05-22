@@ -42,12 +42,6 @@ header{
 }
 #services{
 	width: 100%;
-	
-}
-#testimonials{
-	width: 100%;
-	height: 700px;
-	background-color: lightgreen;
 }
 #socialmedia{
 	width: 100%;
@@ -64,8 +58,7 @@ footer{
     width: 100%;
     padding-bottom: 5%;
  }
-.boxes {
-	
+.boxes {	
 	display:inline-block;
 	/* Width of each cell */
 	/* Must be compatible with total/max width of content (~~~) */
@@ -128,17 +121,23 @@ button:hover > a {
   	position: absolute;
   	z-index: 2;
 }
- .boxp{
- 	display:inline-block;
-	width:300px;
-	height:300px;
-	margin:2%;
+#testimonials{
+	position: relative;
+    margin: auto;
+    width: 70%;
+    padding-bottom: 5%;
+ }
+.polaroid{
+	display:inline-block;
+	width:400px;
+	height:100%;
+	margin: auto;
 	text-align:center;
 	vertical-align:middle;
 	background-color: #F9F6F4;
 	box-shadow: 10px 10px #D8C6BC;
 	padding: 15px;
- }
+}
 .banner{ 
 	position: relative;
 	margin-bottom: 20px;
