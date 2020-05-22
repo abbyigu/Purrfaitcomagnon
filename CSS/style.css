@@ -83,6 +83,7 @@ footer{
   	position: absolute;
   	z-index: 2;
 }
+
 /*Here is the styling for the typography*/ 
 button{
 	display: block;
@@ -106,17 +107,27 @@ button:hover > a {
 	color: white;
 
 }
+#about-me {
+ 	position: relative;
+    margin: auto;
+    width: 70%;
+    padding-bottom: 5%;
+}
 .box{
 	display:inline-block;
 	width:400px;
 	height:500px;
-	margin:2%;
+	margin-left: 2%;
 	text-align:center;
 	vertical-align:middle;
 	background-color: #F9F6F4;
 	box-shadow: 10px 10px #D8C6BC;
 	padding: 15px;
  }
+ .box:before {
+  	position: absolute;
+  	z-index: 2;
+}
  .boxp{
  	display:inline-block;
 	width:300px;
