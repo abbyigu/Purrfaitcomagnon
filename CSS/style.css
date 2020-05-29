@@ -168,6 +168,18 @@ button:hover > a {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+.ig{
+	display:inline-block;
+	position: relative;
+	width:400px;
+	height:100%;
+	margin: auto;
+	text-align:center;
+	vertical-align:middle;
+	background-color: #F9F6F4;
+	box-shadow: 10px 10px #D8C6BC;
+	padding: 15px;
+}
 h2{
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 30px;
