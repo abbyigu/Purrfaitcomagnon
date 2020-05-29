@@ -124,12 +124,14 @@ button:hover > a {
 #testimonials{
 	position: relative;
     margin: auto;
-    width: 70%;
+    width: 30%;
     padding-bottom: 5%;
+  
  }
 .polaroid{
 	display:inline-block;
-	width:400px;
+	position: relative;
+	width:100%;
 	height:100%;
 	margin: auto;
 	text-align:center;
@@ -137,6 +139,7 @@ button:hover > a {
 	background-color: #F9F6F4;
 	box-shadow: 10px 10px #D8C6BC;
 	padding: 15px;
+
 }
 .banner{ 
 	position: relative;
