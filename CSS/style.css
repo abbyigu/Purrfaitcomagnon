@@ -5,6 +5,12 @@ body{
 	height: 5000px;
 	background-color: #FCF0E8;
 }
+mark{
+	color: #2b4000;
+	background-color: #F9F6F4;
+	font-weight: bold !important;
+	font-family: 'Montserrat', sans-serif;
+}
 header{
 	width: 100%;
 	height: 80px;
