@@ -13,6 +13,10 @@ header{
 	
 	z-index: 1;
 }
+mark{
+	color: #9c9743
+	background-color:none;
+}
 #menu {
 	position: relative;
 	margin: auto;
@@ -29,8 +33,7 @@ header{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	
+	background-attachment: fixed;	
 }
 .centered{
 	display: block;
