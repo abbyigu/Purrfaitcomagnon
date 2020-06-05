@@ -189,6 +189,9 @@ button:hover > a {
   	position: absolute;
   	z-index: 1;
 }
+.HoverCard{
+	display: none;
+}
 
 h2{
 	font-family: 'Josefin Sans', sans-serif;

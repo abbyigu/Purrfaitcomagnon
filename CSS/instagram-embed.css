@@ -1,0 +1,29 @@
+/* 
+ * instagram-embed.css - v1.0, 3 August 2018
+ *
+ * In your favorite user CSS tool or stylesheet, set the following rules to 
+ * apply to 
+ * https://*.instagram.com/*
+ * (or equivalent; the entire instagram.com domain)
+ * 
+ * N.B. Your user CSS tool must be able apply CSS rules to <iframe>s, rather
+ * than only applying them based on the URL in the browser's location bar.
+ */
+
+/* Remove clutter */
+div[class="HoverCard"], div[class="SocialProof"], div[class="Feedback"],
+span[class="FollowerCountText"], a[class="ViewProfileButton"],
+a[class="CaptionCommentsExpand"] { display: none !important; }
+
+/* Fix position of caption after clutter removal */
+div[class="Caption"] { padding-top: 10px !important; }
+
+/* Make dots for multiple-photo posts appear inside the photo, rather than
+ * on top of the caption, after clutter removal. If you want to hide the dots
+ * altogether (they are normally hidden on embeds by the hovercard launcher),
+ * replace "margin-top: -15px" in the next line with "display: none".
+ */
+div[class="EmbedSidecar"] div[class*="ijCUd"] { margin-top: -15px !important; }
+
+/* Shrink the embed to fit the new content size after clutter removal */
+div[data-oembed-url*="https://www.instagram.com/"] { height: auto !important; }
