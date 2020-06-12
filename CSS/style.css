@@ -22,7 +22,7 @@ mark{
 	z-index: 1;
 }*/
 #menu {
-  height: 120px;
+  height: 100px;
   overflow: hidden;
   background-color: #2EB6E7;
   transition: 0.4s;
@@ -37,13 +37,14 @@ mark{
 	width: 500px;
 	position: relative;
 	margin: auto;
-	top: 50px;
+	top: 60px;
 }
 #logo{
 	width: 350px;
 	position: absolute;
 	right: 420px;
 	top: -40px;
+	transition: 0.4s;
 
 
 }
@@ -52,7 +53,7 @@ mark{
 	display: inline-block;
 	left: 100px;
 	margin: auto;
-	word-spacing: 5px;
+	word-spacing: 6px;
 	text-align:center;
 	vertical-align:middle;
 
