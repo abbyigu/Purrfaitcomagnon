@@ -12,7 +12,9 @@
 <body>
 	<header>
 		<div id="menu">
-			 
+			 	<div id="logo">
+					<img src="img/logomenu.svg">
+				</div>
 				<a href="index.html">Home </a> 
 				<a href="#services">Services</a>
 				<a href="#about-me">About</a>
@@ -114,6 +116,20 @@
 
 <footer>
 </footer>
+<script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("menu").style.padding = "30px 10px";
+    document.getElementById("logo").style.width = "200px";
+  } else {
+    document.getElementById("menu").style.padding = "80px 10px";
+    document.getElementById("logo").style.width = "300px";
+  }
+}
+</script>
 </body>
 
 </html>
