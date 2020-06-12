@@ -12,23 +12,28 @@
 <body>
 	<header>
 		<div id="menu">
-			 	<div id="logo">
-					<img src="img/logomenu.svg">
-				</div>
-				<a href="index.html">Home </a> 
+		<div id="menu-wrapper">	 	
+			<div id="logo">
+				<img src="img/logomenu.svg">
+			</div>
+			<div id="nav-text">
+
+				<a href="Reserve.html">Home </a> 
 				<a href="#services">Services</a>
 				<a href="#about-me">About</a>
 				<a href="#testimonials"> Testimonials</a>
 				<a href="#Contactme"> Contact</a>
+			</div>
 			
 		</div>
+	</div>
 	</header>
-	<div id="hero" style="padding-top: 200px;">
-		<img class="centered" src="img/logo_blue_white.svg">
+	<div id="hero">
+		
 	</div>
 	
 	<div id="services" style="text-align: center;">
-        </br> </br> </br> 
+        </br> </br> </br> </br> </br> </br> 
 		<h2>Services</h2>
 		<div id="wrapper">
 		
@@ -84,8 +89,9 @@
 		</div>
 	</div><!-- ends About me --> 
 	<div class="banneryarn"></div>
-
+    
 	<div id="testimonials">		
+		 </br> </br> </br> </br> </br> </br> 
 		<div class="polaroid">
 			<img src="img/pedro.png" width="100%"> 
 			<p>“Ariel took care of our <em>senior dog</em> while we were on a week's vacation. She was very responsible - firming up details before the job and getting to know our dog's unique dietary needs. She walked him regularly and we found him in great shape when we returned from our trip. We will definitely use her pet care service again”- </p><strong><mark>Pedro, Michelle Walsh</mark></strong>
@@ -122,11 +128,13 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("menu").style.padding = "30px 10px";
+    document.getElementById("menu").style.height = "60px";
     document.getElementById("logo").style.width = "200px";
+    document.getElementById("logo").style.top = "-20px";
   } else {
-    document.getElementById("menu").style.padding = "80px 10px";
-    document.getElementById("logo").style.width = "300px";
+    document.getElementById("menu").style.height = "120px";
+    document.getElementById("logo").style.width = "350px";
+    document.getElementById("logo").style.top = "-40px";
   }
 }
 </script>
