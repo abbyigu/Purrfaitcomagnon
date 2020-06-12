@@ -82,10 +82,11 @@ mark{
 .centered{
 	display: block;
 	position: relative;
-	top: -100px;
   	margin-left: auto;
  	margin-right: auto;
- 	width: 30%;
+ 	margin-bottom: 50px;
+ 	text-align: center;
+ 	
 }
 #services{
 	margin-top: 100px;
