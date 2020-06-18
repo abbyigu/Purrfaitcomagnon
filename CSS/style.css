@@ -165,6 +165,7 @@ button:hover > a {
   	position: absolute;
   	z-index: 2;
 }
+
 .left {
 	width: 300px;
 	display: inline;
@@ -276,3 +277,26 @@ a:link, a:visited, a:active   {
 a:hover {
 	color: white;
 }
+/* here are the styles for the "Reserve" page*/
+
+.container-reserve{
+	width:70%;
+	margin: auto;
+	background-color: #F9F6F4;
+	box-shadow: 10px 10px #D8C6BC;
+	position: relative;
+	top: 200px;
+
+} 
+#form {
+	position: relative;
+	margin: 10%;	
+
+}
+.margin {
+	position: relative;
+	top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
