@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body{
-	
+
 	padding: 0px;
 	margin: 0px;
 	height: 5000px;
@@ -298,5 +298,24 @@ a:hover {
 	top: 50px;
 	margin-left: 10%;
 	margin-right: 10%;
+}
+/* Here will be all of the media queries for mobile and tablet */ 
+
+@media only screen and (max-width: 800px) {
+	#menu {
+		display: none;
+
+	}
+	#hero{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: 700px;
+	background-image: url("../img/Corgie-in-black.jpg");
+	background-position: center ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;	
+	}
+
 }
 
