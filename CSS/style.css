@@ -229,6 +229,18 @@ button:hover > a {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+.bannerfish{
+	position: relative;
+	margin-bottom: 40px;
+	width: 100%;
+	height: 220px;
+	background-image: url("../img/banner_.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat
+}
+
+}
 #socialmedia{
 	position: relative;
     margin: auto;
