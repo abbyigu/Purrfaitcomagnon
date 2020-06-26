@@ -232,7 +232,7 @@ button:hover > a {
 .bannerfish{
 	position: relative;
 	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-bottom:50px;
 	width: 100%;
 	height: 220px;
 	background-image: url("../img/banner_.png");
