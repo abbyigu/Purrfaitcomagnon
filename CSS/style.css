@@ -244,9 +244,11 @@ button:hover > a {
 }
 #socialmedia{
 	position: relative;
-    margin: auto;
+	margin-bottom: 200px;
+    margin-right: auto;
+    margin-left: : auto;
     width: 100%;
-    padding-bottom: 5%;
+    
 }
 .instag {	
 	display:inline-block;
@@ -258,6 +260,7 @@ button:hover > a {
 	text-align:center;
 	vertical-align:middle;
 	padding: 15px;
+	margin-bottom: 200px;
  
 }
 .instag:before {
