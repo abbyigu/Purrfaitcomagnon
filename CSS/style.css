@@ -270,6 +270,10 @@ button:hover > a {
 .HoverCard{
 	display: none;
 }
+#icon{
+	width: 150px;
+	display: inline;
+}
 
 h2{
 	font-family: 'Josefin Sans', sans-serif;
@@ -334,4 +338,5 @@ a:hover {
 	}
 
 }
+
 
