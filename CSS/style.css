@@ -121,6 +121,16 @@ footer{
   	position: absolute;
   	z-index: 2;
 }
+ button#icon_menu {
+	width: 50px !important; 
+	border-radius: 10px !important; 
+	background-color:#2EB6E7 !important;
+	margin-left:20px !important;
+	position: relative;
+	box-shadow: none;
+	display: inline;
+
+}
 
 /*Here is the styling for the typography*/ 
 button{
@@ -319,12 +329,71 @@ a:hover {
 	margin-left: 10%;
 	margin-right: 10%;
 }
+/* mobile menu */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2EB6E7;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  
+}
+
+#main {
+  transition: margin-left .5s;
+
+}
+#mySidebar #menu_icon_logo{
+	display: none;
+}
+
 /* Here will be all of the media queries for mobile and tablet */ 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
 	#menu {
 		display: none;
 
+	}
+	#mySidebar #menu_icon_logo{
+	display: block;
 	}
 	#hero{
 	position: relative;

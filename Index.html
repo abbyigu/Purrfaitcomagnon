@@ -14,7 +14,10 @@
 	
 </head>
 <body>
+<div id="main">
 	<header>
+  
+
 		<div id="menu">
 		<div id="menu-wrapper">	 	
 			<div id="logo">
@@ -32,9 +35,27 @@
 			
 		</div>
 	</div>
+
+	
 	</header>
 
+
 	<div id="hero">
+		<div id="mySidebar" class="sidebar">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	  <a href="#">About</a>
+	  <a href="#">Services</a>
+	  <a href="#">Clients</a>
+	  <a href="#">Contact</a>
+	</div>
+
+<div id="menu_icon_logo" style="width: 350px; position: fixed;">
+  <button id="icon_menu" style= "display: inline "class="openbtn" onclick="openNav()">☰ </button> 
+  <div class="logo_mobile" style="width: 100px;display: inline;position: relative; top: 20px;">
+  	<img src="img/logomenu.svg" width="200" >
+  </div>
+</div>
+
 		
 	</div>
 	
@@ -159,6 +180,7 @@
 </div>
 <footer>
 </footer>
+</div> 
 <script>
 // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
 window.onscroll = function() {scrollFunction()};
@@ -178,6 +200,19 @@ function scrollFunction() {
   }
 }
 </script>
+
+<script>
+	function openNav() {
+	  document.getElementById("mySidebar").style.width = "250px";
+	  document.getElementById("main").style.marginLeft = "250px";
+	}
+
+	function closeNav() {
+	  document.getElementById("mySidebar").style.width = "0";
+	  document.getElementById("main").style.marginLeft= "0";
+	}
+</script>
+
 
 </body>
 
